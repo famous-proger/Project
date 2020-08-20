@@ -1,0 +1,30 @@
+.navigation-panel__single-section {
+    display: flex;
+    padding: 10px 30px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navigation-panel__single-section:hover {
+    background: #131313;
+}
+
+.navigation-panel__single-section > p {
+    font: 15px / 20px "Montserrat";
+    margin-left: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.silver-icon {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.navigation-panel__single-section .fa {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-panel__sections a {
+    text-decoration: none;
+}
